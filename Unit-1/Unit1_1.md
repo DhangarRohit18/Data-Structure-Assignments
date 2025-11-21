@@ -43,9 +43,10 @@ Algorithm StringConcatenate(str1, str2, result):
 
 ## Code Implementation
 
-```c
-#include <stdio.h>
-#include <stdlib.h>
+```cpp
+#include <iostream>
+using namespace std;
+
 
 int stringLength_rrd(char* str_rrd);
 void stringCopy_rrd(char* source_rrd, char* destination_rrd);
